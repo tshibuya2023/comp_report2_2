@@ -9,12 +9,6 @@ def is_comma_separated_numbers(s):
     match = re.fullmatch(pattern, s)
     return match is not None
 
-# 以下の関数は、入力がカンマで区切られた数字のリスト形式であるかどうかを判定する
-def is_comma_separated_numbers(s):
-    pattern = r'___'  # (1) 入力がカンマで区切られた数字のリストを表す正規表現を記述せよ
-    match = re.fullmatch(pattern, s)
-    return match is not None
-
 
 def main():
     try:
